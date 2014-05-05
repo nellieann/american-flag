@@ -33,10 +33,6 @@ li {
 	height: 20px;
 }
 
-.stripes li:nth-child(even) {
-	background-color: white;
-}
-
 .stripes li:nth-child(odd) {
 	background-color: red;
 }
