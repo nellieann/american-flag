@@ -1,0 +1,42 @@
+body {
+	width: 500px;
+	height: 300px;
+	position: relative;
+}
+
+.stripes, .stars {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.stripes {
+	width: 100%;
+	height: 100%;
+}
+
+.stars {
+	width: 50%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	font-size: .7em;
+	letter-spacing: 12px;
+	z-index: 10;
+}
+
+li {
+	list-style-type: none;
+}
+
+.stripes li {
+	height: 20px;
+}
+
+.stripes li:nth-child(odd) {
+	background-color: red;
+}
+
+.stars li {
+	height: 15.5px;
+}
